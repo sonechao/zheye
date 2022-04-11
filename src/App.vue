@@ -22,12 +22,18 @@ const testData: ColumnProps[] = [
   {
     id: 2,
     title: 'test2的专栏',
-    description: 'test1的专栏的描述，有一段很有意思的内容，啦啦啦',
-    avatar: 'https://images.dog.ceo/breeds/germanshepherd/n02106662_7238.jpg'
+    description: 'test1的专栏的描述，有一段很有意思的内容，啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦'
+    // avatar: 'https://images.dog.ceo/breeds/germanshepherd/n02106662_7238.jpg'
   },
   {
     id: 3,
     title: 'test3的专栏',
+    description: 'test1的专栏的描述，有一段很有意思的内容，啦啦啦',
+    avatar: 'https://images.dog.ceo/breeds/germanshepherd/n02106662_7238.jpg'
+  },
+  {
+    id: 4,
+    title: 'test4的专栏',
     description: 'test1的专栏的描述，有一段很有意思的内容，啦啦啦',
     avatar: 'https://images.dog.ceo/breeds/germanshepherd/n02106662_7238.jpg'
   }
@@ -52,8 +58,8 @@ export default defineComponent({
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>
